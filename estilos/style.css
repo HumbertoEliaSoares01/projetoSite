@@ -1,13 +1,14 @@
 /*  *{ = "configuração padrão" */
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+
 }
 body{
     background-color: #dddddd;
     padding: 25px;
 }
 main{
+    border-radius: 5px;
     background-color: #ffffff;
     width: 600px;
     margin: auto;
@@ -17,6 +18,9 @@ main{
 h1, h2{
     text-align: center;
 }
+h1{
+    font-size: 2em;
+}
 p{
     padding: 25px;
     text-align: justify;
@@ -24,4 +28,10 @@ p{
 img{
     display: block;
     margin: auto;
+}
+article{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
 }
