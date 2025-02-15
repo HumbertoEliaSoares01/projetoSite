@@ -14,3 +14,14 @@ main{
     padding: 25px;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5);
 }
+h1, h2{
+    text-align: center;
+}
+p{
+    padding: 25px;
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: auto;
+}
